@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>rush</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills" id="mylist">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#simple-list-item-1" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#simple-list-item-2" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#simple-list-item-3" class="nav-link">Contact</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <div class="row justify-content-center" style="background-color: #393E46">
+    <div class="col-4">
+      <div class="text">
+        <h4>Hello, I am</h4>
+        <h1>Jomsuda Nakyai</h1>
+        <h6>A Freshman at King Mongkut's University of Technology Thonburi</h6>
+      </div>
+    </div>
+    <div class="col-4">
+      <img id="myimage" style="width:100%; opacity: 1;"
+        src="img/mypic.png" alt="..." />
+    </div>
+
+  </div>
+
+  <div data-bs-spy="scroll" data-bs-target="mylist" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
+    <div class="part1">
+      <h3 class="info">Who Am I ?</h3>
+      <table class="infor part2">
+        <tr>
+          <td>
+            <h6>Hi, My name is Jomsuda Nakyai but you can call me "Namtan". I am a Freshman at King Mongkut's University of Technology Thonburi.I am the person who falls in love with Biology and Coding.
+              When I have the free times,I love to learn the new language computer and create website somtimes.</h6>
+            <h5>Nice to meet you all!</h5>
+            </td>
+        </tr>
+      </table>
+      <div id="simple-list-item-1"></div>
+    </div>
+
+    <div class="part1">
+      <h3 class="info">Skills</h3>
+      <div class="skills">
+        <table>
+          <tr>
+            <td>
+              <div >
+                <img src="img/skills.png" style="width:40%">
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      </div>
+
+
+     
+
+      <div class="part1">
+        <div class="contact">
+            <table>
+              <tr>
+                <td>
+                  <div >
+                    <a href="https://www.facebook.com/namtan.jomsuda"><img src="img/bxl-facebook.png" style="width:80%">
+                  </div>
+                </td>
+                <td>
+                  <div >
+                    <a href="https://www.instagram.com/namtanjomsuda/"><img src="img/bxl-instagram.png"  style="width:80%">
+                  </div>
+                </td>
+                <td>
+                  <div >
+                    <a href="https://github.com/jomsuda"><img src="img/bxl-github.png"  style="width:80%">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+      </div>
+      <div id="simple-list-item-3"></div>
+      <script>
+        var foo = document.getElementById("myimage");
+        foo.addEventListener('mouseover', function () {
+          foo.style.opacity = "1";
+        })
+        foo.addEventListener('mouseleave', function () {
+          foo.style.opacity = "0.8";
+        })
+      </script>
+      
+</body>
+
+
+</html>
